@@ -1,7 +1,11 @@
+import Navbar from "@/Components/Navbar/Navbar";
+
 const page = () => {
   return (
     <>
-      <div></div>
+      <div className="w-[95%] mx-auto">
+        <Navbar />
+      </div>
     </>
   );
 };
